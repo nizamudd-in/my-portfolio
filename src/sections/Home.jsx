@@ -108,7 +108,7 @@ const Home = React.forwardRef((props, ref) => {
       <div className="absolute inset-0 z-[1]">
         <video
           ref={videoRef1}
-          src="/1.mp4"
+          src="/1.webm"
           autoPlay
           muted
           playsInline
@@ -121,7 +121,7 @@ const Home = React.forwardRef((props, ref) => {
         />
         <video
           ref={videoRef2}
-          src="/2.mp4"
+          src="/2.webm"
           muted
           playsInline
           loop
